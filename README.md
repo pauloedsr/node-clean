@@ -1,2 +1,2 @@
 # nodejs-webdefault
-Projeto básico para implementações em nodejs com express, mongoose, pug e pug-bootstrap.
+Basic project for implementations on nodejs with express, mongoose, pug and pug-bootstrap.
