@@ -1,0 +1,10 @@
+extends ../layout
+block content
+    a(href="/users") Get List
+    row
+    +panel-primary("New User")
+        form(method="post",action="/users/new")
+            +input("text","txtName","Name","Name","name")
+            +input("password","txtPassword","Password","Password","password")
+            +input("email","txtEmail","Email","Email","Email","email")
+            +submit("Save")

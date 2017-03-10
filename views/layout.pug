@@ -1,7 +1,8 @@
-doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+extends ../node_modules/pug-bootstrap/_bootstrap
+block body
+  +navbar-static("NODEJS Webdefault","navbar","inverse")
+    +nav_item("/","active") Home
+    +nav_item("/users") Users
+    +nav_item("#") Contact
+  .container
     block content
